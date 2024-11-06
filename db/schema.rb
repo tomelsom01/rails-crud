@@ -16,6 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_11_04_071602) do
     t.integer "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "address"
   end
 
 end
